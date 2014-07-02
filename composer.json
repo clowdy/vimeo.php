@@ -1,0 +1,23 @@
+{
+	"name": "clowdy/vimeo-api",
+	"type": "library",
+	"description": "Composer wrapper for Vimeo PHP library",
+	"homepage": "https://github.com/clowdy/vimeo.php",
+	"keywords": ["clowdy", "vimeo", "video", "videos"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Clowdy",
+			"homepage": "https://www.clowdy.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Vimeo\\": "src/"
+		}
+	}
+}
